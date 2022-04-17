@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+footer {
+    background-color: #ffdea8;
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
+
+header {
+    background-color: #ffdea8;
+    margin-left: 60px;
+}
+
+header h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f72119;
+    margin-top: 30px;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	padding: 10px 100px;
+    background-color: #ffdea8;
+}
+
+.left-menu ul {
+	list-style-type: none;
+	border: 1px solid #bfbfbf;
+}
+
+.left-menu li:not(:last-child) {
+	border-bottom: 1px solid #bfbfbf;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.map {
+	width: 100%;
+	height: 100vh;
+    background-color: #ffdea8;
+}
+
+.map svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 0.15s;
+    
+}
+.map a {
+	transition: all 0.15s;
+}
+
+.active {
+	background-color: #bfbfbf;
+	transition: all 0.15s;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.description {
+    box-shadow: 5px 5px 5px lightgray;
+    display: none;
+    background-color: #ffdea8 ;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px; 
+    left: 880px;
+    top: 450px;
+    border: solid 2px #f72119;
+}
+
+.info h2 {
+	margin-bottom: 20px;
+}
+
+main {
+    background-color: #ffdea8;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+path[data-id="1"]:hover {
+    opacity: .2;
+}
+
+path[data-id="2"]:hover {
+    opacity: .2;
+}
+
+path[data-id="3"]:hover {
+    opacity: .2;
+}
+
+path[data-id="4"]:hover {
+    opacity: .2;
+}
+
+path[data-id="5"]:hover {
+    opacity: .2;
+}
+
+
+path[data-id="6"]:hover {
+    opacity: .2;
+}
+path[data-id="7"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="8"]:hover, path[data-id="8"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="9"]:hover, path[data-id="9"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="10"]:hover, path[data-id="10"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="11"]:hover, path[data-id="11"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="12"]:hover, path[data-id="12"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="13"]:hover, path[data-id="13"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="14"]:hover, path[data-id="14"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="15"]:hover, path[data-id="15"]:hover, polygon[data-id="15"]:hover {
+    opacity: .2;
+}
+
+
+rect[data-id="16"]:hover, path[data-id="16"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="17"]:hover, path[data-id="17"]:hover, polygon[data-id="17"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="18"]:hover, path[data-id="18"]:hover {
+    opacity: .2;
+}
+rect[data-id="19"]:hover, path[data-id="19"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="20"]:hover, path[data-id="20"]:hover {
+    opacity: .2;
+}
+rect[data-id="21"]:hover, path[data-id="21"]:hover, polygon[data-id="21"]:hover {
+    opacity: .2;
+}
+rect[data-id="22"]:hover, path[data-id="22"]:hover {
+    opacity: .2;
+}
+
+rect[data-id="23"]:hover, path[data-id="23"]:hover, polygon[data-id="23"]:hover {
+    opacity: .2;
+}
+rect[data-id="24"]:hover, path[data-id="24"]:hover {
+    opacity: .2;
+}
+rect[data-id="25"]:hover, path[data-id="25"]:hover {
+    opacity: .2;
+}
+rect[data-id="26"]:hover, path[data-id="26"]:hover {
+    opacity: .2;
+}
+rect[data-id="27"]:hover, path[data-id="27"]:hover {
+    opacity: .2;
+}
+rect[data-id="28"]:hover, path[data-id="28"]:hover {
+    opacity: .2;
+}
+path {
+    cursor: pointer;
+}
+
+polygon {
+    cursor: pointer;
+}
+
+rect {
+    cursor: pointer;
+}
+
+text {
+    cursor: pointer;
+}
